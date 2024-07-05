@@ -1,0 +1,54 @@
+@import "/swiper/swiper.css";
+@import "/swiper/swiper-bundle.css";
+.wrapper {
+  padding: 30px 130px;
+  min-height: 100%;
+}
+.wrapper .title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.wrapper .swiper-container {
+  overflow: hidden;
+}
+.wrapper .image-slider {
+  padding: 30px 30px 70px;
+}
+.wrapper .image-slider .image-slider_image {
+  text-align: center;
+}
+.wrapper .image-slider .image-slider_image img {
+  width: 100%;
+}
+.wrapper .swiper-button-prev {
+  padding-left: 50px;
+}
+.wrapper .swiper-button-next {
+  padding-right: 50px;
+}
+.wrapper .swiper-button-prev::after,
+.wrapper .swiper-button-next::after {
+  color: black;
+  font-size: 80px;
+}
+.wrapper .swiper-pagination {
+  bottom: auto;
+  padding-top: 30px;
+}
+.wrapper .swiper-pagination .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  color: azure;
+  font-size: 12px;
+  line-height: 20px;
+}
+.wrapper .swiper-scrollbar {
+  background: rgb(205, 20, 20);
+}
+.wrapper .swiper-horizontal > .swiper-scrollbar,
+.wrapper .swiper-scrollbar.swiper-scrollbar-horizontal {
+  height: var(--swiper-scrollbar-size, 15px);
+}/*# sourceMappingURL=main.css.map */

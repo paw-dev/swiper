@@ -1,0 +1,67 @@
+@import "/swiper/swiper.css";
+@import "/swiper/swiper-bundle.css";
+
+.wrapper {
+  padding: 30px 130px;
+  min-height: 100%;
+
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .swiper-container {
+    overflow: hidden;
+  }
+  .image-slider {
+    padding: 30px 30px 70px;
+
+    .image-slider_image {
+      text-align: center;
+
+      img {
+        // max-width: 1000px;
+        width: 100%;
+      }
+    }
+  }
+
+  //   Стрелки
+  .swiper-button-prev {
+    padding-left: 50px;
+  }
+  .swiper-button-next {
+    padding-right: 50px;
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    color: black;
+    font-size: 80px;
+  }
+
+  // Буллеты
+  .swiper-pagination {
+    bottom: auto;
+    padding-top: 30px;
+
+    .swiper-pagination-bullet {
+      width: 20px;
+      height: 20px;
+      background-color: black;
+      color: azure;
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+
+  .swiper-scrollbar {
+    background: rgba(205, 20, 20);
+  }
+
+  .swiper-horizontal > .swiper-scrollbar,
+  .swiper-scrollbar.swiper-scrollbar-horizontal {
+    height: var(--swiper-scrollbar-size, 15px);
+  }
+}
